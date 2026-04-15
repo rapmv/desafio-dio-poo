@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.dominio.Bootcamp;
 import org.example.dominio.Conteudo;
 import org.example.dominio.Curso;
 import org.example.dominio.Mentoria;
@@ -29,9 +30,12 @@ public class Main {
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
 
+        /*
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria);
+         */
 
+        
     }
 }
